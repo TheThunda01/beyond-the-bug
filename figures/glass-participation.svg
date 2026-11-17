@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg aria-labelledby="title desc" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 186" role="img">
+  <title id="title">Countries reporting to WHO GLASS</title>
+  <desc id="desc">2016: 25 countries. 2023: 104 countries</desc>
+  <g font-family="system-ui, sans-serif" fill="#16333e">
+    <rect width="560" height="186" fill="#fff" />
+    <text font-size="18" font-weight="600" x="12" y="23">Reporting countries</text>
+    <line x1="80.0" x2="80.0" y1="37" y2="146" stroke="#ccd7d8" />
+    <text text-anchor="middle" x="80.0" y="168">0</text>
+    <line x1="168.0" x2="168.0" y1="37" y2="146" stroke="#ccd7d8" />
+    <text text-anchor="middle" x="168.0" y="168">25</text>
+    <line x1="256.0" x2="256.0" y1="37" y2="146" stroke="#ccd7d8" />
+    <text text-anchor="middle" x="256.0" y="168">50</text>
+    <line x1="344.0" x2="344.0" y1="37" y2="146" stroke="#ccd7d8" />
+    <text text-anchor="middle" x="344.0" y="168">75</text>
+    <line x1="432.0" x2="432.0" y1="37" y2="146" stroke="#ccd7d8" />
+    <text text-anchor="middle" x="432.0" y="168">100</text>
+    <line x1="520.0" x2="520.0" y1="37" y2="146" stroke="#ccd7d8" />
+    <text text-anchor="middle" x="520.0" y="168">125</text>
+    <text x="12" y="65">2016</text>
+    <rect x="80" y="46" width="88.0" height="26" fill="#18706d" />
+    <text font-weight="600" x="174.0" y="65">25</text>
+    <text x="12" y="109">2023</text>
+    <rect x="80" y="90" width="366.08" height="26" fill="#18706d" />
+    <text font-weight="600" x="452.08" y="109">104</text>
+  </g>
+</svg>
