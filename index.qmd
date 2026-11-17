@@ -1,0 +1,7 @@
+# About this book {.unnumbered}
+
+How far can a surveillance result travel beyond the places that contributed data? *Beyond the Bug* examines that question through antimicrobial resistance reporting and genomic epidemiology.
+
+Start with [Who contributed to the count?](chapters/reporting.qmd). A short comparison from the World Health Organization shows how the set of reporting countries changed between two published observations. The [underlying table](data/glass-participation.csv) has one row per observation.
+
+The larger book is intended to bring together the *Beyond the Bug* APE and ILE manuscripts. The first chapter is a standalone source-reading exercise. The manuscripts have yet to be added to this edition.
