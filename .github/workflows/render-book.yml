@@ -1,0 +1,32 @@
+name: Render the book
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - uses: quarto-dev/quarto-actions/setup@8a96df13519ee81fd526f2dfca5962811136661b # v2
+        with:
+          version: '1.9.37'
+      - name: Render and check the figure
+        run: |
+          quarto render
+          git diff --exit-code -- figures/glass-participation.svg
+          test -s _book/index.html
+          test -s _book/chapters/reporting.html
+          cmp data/glass-participation.csv _book/data/glass-participation.csv
+          cmp figures/glass-participation.svg _book/figures/glass-participation.svg
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        with:
+          name: beyond-the-bug-html
+          path: _book/
+          if-no-files-found: error

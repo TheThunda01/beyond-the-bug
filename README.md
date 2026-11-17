@@ -6,7 +6,11 @@ The [first chapter](chapters/reporting.qmd) follows two published WHO counts fro
 
 ![Countries reporting to WHO GLASS in 2016 and 2023](figures/glass-participation.svg)
 
-## Read or build the example
+## Read the rendered book
+
+Open a successful run under [Render the book](https://github.com/TheThunda01/beyond-the-bug/actions/workflows/render-book.yml). Sign in to GitHub to download the `beyond-the-bug-html` artifact from the run summary. Extract the ZIP, then open `index.html`. The figures and CSV are included.
+
+## Build the example locally
 
 1. Compare the [two observations](data/glass-participation.csv) with the [source note](data/README.md).
 2. Install Python 3.9 or later and [Quarto](https://quarto.org/docs/get-started/).
